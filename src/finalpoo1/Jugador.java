@@ -46,7 +46,7 @@ public class Jugador {
             if (par) {
                 System.out.println("Sus Fichas salieron de la carcel, ahora están en salida");
                 if (modoJuego) {
-                   
+                     turnoNormal(modoJuego);
                 }else {
                    opcionesTurno(0); 
                 }
